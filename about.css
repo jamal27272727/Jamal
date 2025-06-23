@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffefc;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #B37F8C;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+nav {
+    background-color: #FFB6C9;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px;
+}
+
+nav ul li a:hover {
+    background-color: #FFDBE4;
+    border-radius: 4px;
+}
+
+main {
+    padding: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Tampil 2 kolom */
+    gap: 20px;
+}
+
+.member {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.member h2 {
+    margin-top: 0;
+    color: #B37F8C;
+}
+
+footer {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 15px;
+    color: #777;
+    margin-top: 30px;
+}
+
+/* Responsif: jika layar kecil, jadi 1 kolom */
+@media (max-width: 600px) {
+    .team {
+        grid-template-columns: 1fr;
+    }
+}
