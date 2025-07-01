@@ -1,0 +1,24 @@
+/* stylebasket.css */
+
+/* ... existing CSS code ... */
+
+/* Specific styles for the About Page */
+.container article {
+  max-width: 800px; /* Limit width for readability */
+  margin: 2rem auto; /* Center the article and add vertical spacing */
+  text-align: center; /* Center the text within the article */
+}
+
+.container article hgroup {
+  margin-bottom: 1.5rem;
+}
+
+.container article p {
+  text-align: left; /* Keep paragraphs left-aligned within the centered article */
+  margin-bottom: 1em;
+}
+
+.container article blockquote {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
